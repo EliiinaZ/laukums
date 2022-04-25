@@ -6,15 +6,20 @@
         <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1>Trijstura laukums</h1>
+        <div id="galva">
+         <h1>Trijstura laukums</h1>
+         <p>Šis kalkulators domāts, lai katrs varētu aprēķināt trijstūra perimetru un laukumu!</p>
+         <p>Bonusā vēl paskaidrojums.</p>
+        </div>
         <div id="ievade">
             <input class="mala" type="text" id="mala1" value="0.00"/>
             <input class="mala" type="text" id="mala2" value="0.00"/>
             <input class="mala" type="text" id="mala3" value="0.00"/>
-            <button onClick="izvadaTekstu()"OK></button>
+            <button onClick="izvadaTekstu()">OK</button>
 
             <div id="izvade"></div>
         </div>
         <script type="text/javascript" src="script.js"></script>
+        <img src="https://image.shutterstock.com/image-vector/geometry-classification-triangles-on-white-260nw-651932893.jpg" alt="Trijstūris">
     </body>
 </html>

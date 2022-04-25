@@ -1,4 +1,4 @@
-function nolasa(m1, m2, m3) {
+function nolasa() {
     const malas = document.getElementsByClassName("mala");
     m1 = parseFloat(mala1.value);
     m2 = parseFloat(mala2.value);
